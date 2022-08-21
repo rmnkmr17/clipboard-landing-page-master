@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.bg-image {
+    background-image: url("images/bg-header-desktop.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+h1 {
+    font-size: 200px;
+    color: hsl(171, 66%, 44%);
+}
+
+.intro {
+    margin-top: -140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 44px;
+    color: hsl(172, 45%, 25%);
+    margin: 0;
+}
+
+p {
+    font-weight: lighter;
+    color: hsl(171, 66%, 44%);
+}
+
+button {
+    padding: 16px 32px;
+    margin-top: 20px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+
+.buttons {
+    display: flex;
+    gap: 30px;
+}
+
+.dl-for-ios {
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 5px 2px 2px hsl(171, 69%, 31%);
+}
+
+.dl-for-mac {
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 5px 2px 2px hsl(233, 100%, 59%);
+}
+.dl-for-ios:active {
+    background-color: hsl(171, 77%, 54%);
+    box-shadow: 5px 2px 2px hsl(171, 69%, 31%);
+}
+
+.dl-for-mac:active {
+    background-color: hsl(202, 85%, 66%);
+    box-shadow: 5px 2px 2px hsl(233, 100%, 59%);
+}
+
+
