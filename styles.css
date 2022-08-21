@@ -41,6 +41,7 @@ h2 {
 p {
     font-weight: lighter;
     color: hsl(171, 66%, 44%);
+    text-align: center;
 }
 
 button {
@@ -66,14 +67,172 @@ button {
     background-color: hsl(233, 100%, 69%);
     box-shadow: 5px 2px 2px hsl(233, 100%, 59%);
 }
+
 .dl-for-ios:active {
     background-color: hsl(171, 77%, 54%);
     box-shadow: 5px 2px 2px hsl(171, 69%, 31%);
+    cursor: pointer;
 }
 
 .dl-for-mac:active {
     background-color: hsl(202, 85%, 66%);
     box-shadow: 5px 2px 2px hsl(233, 100%, 59%);
+    cursor: pointer;
 }
 
+.dl-for-ios:hover {
+
+    cursor: pointer;
+}
+
+.dl-for-mac:hover {
+
+    cursor: pointer;
+}
+
+
+
+.intro-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    font-size: 34px;
+    color: hsl(172, 45%, 25%);
+    margin-top: 150px;
+    margin-bottom: 0;
+}
+
+.functions {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.functions-list {
+    margin-top: -70px;
+}
+
+h4 {
+    color: hsl(172, 45%, 25%);
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.p-from-start {
+    text-align: left;
+    margin: 0;
+    margin-bottom: 80px;
+}
+
+.access {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.devices {
+    margin-top: 60px;
+}
+
+.supercharge {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -80px;
+}
+
+.features-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.blacklists {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+
+.plain-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+
+}
+
+.sneak-preview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+}
+
+.features-heading {
+    margin-top: 30px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+.icon-img {
+    object-fit: contain;
+}
+
+.outro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.footer {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(166, 77%, 88%);
+    padding: 50px 5px;
+}
+
+.container-svg {
+    margin-left: 80px;
+    
+
+}
+
+.sm-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 26px;
+    margin-right: 80px;
+    flex-wrap: wrap;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+}
 
